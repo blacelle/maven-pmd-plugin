@@ -118,7 +118,7 @@ under the License.
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
       <artifactId>maven-artifact-transfer</artifactId>
-      <version>0.10.0</version>
+      <version>0.10.1</version>
     </dependency>
 
     <!-- pmd -->
@@ -147,7 +147,7 @@ under the License.
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>jul-to-slf4j</artifactId>
-        <version>1.7.25</version>
+        <version>1.7.26</version>
     </dependency>
 
     <!-- doxia -->
@@ -218,7 +218,7 @@ under the License.
     <dependency><!-- wiremock requires 4.5.3 but Doxia brings 4.0.2 and httpcore 4.0.1  -->
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.5.3</version>
+      <version>4.5.8</version>
       <!-- scope>test</scope> Required by Doxia transitively. -->
     </dependency>
     <dependency>
